@@ -1,0 +1,16 @@
+
+* Patterns in Types: Reader, Writer, State in Scala
+
+Developers are often very good at spotting repetition in their
+programs at the value level, but for some reason struggle, or are
+reluctant to, apply that same careful analysis at the type level.
+
+This talk aims to build up an intuition for spotting _when_ you can
+factor your types, examining _what_ this gains you, and looking at the
+_practicalities_ for doing so in scala. We will use an example of
+building out a simple web stack using reader, writer and state. The
+code demonstrated is based closely on a tried and tested purely
+functional web stack currently in production.
+
+For appropriate buzz-word compliance during this talk you will see
+scalaz, monads, monad transformers, data types, type classes and laws.
